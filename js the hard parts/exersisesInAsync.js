@@ -22,7 +22,7 @@ function limitedRepeat() {
 
 /* CHALLENGE 6 */
 
-function everyXsecsForYsecs(func, interval, duration) {
+function everyXsecsForYsecs (func, interval, duration) {
     let currentDuration = 0;
     let id = setInterval(() => {
         func()
@@ -36,6 +36,7 @@ function everyXsecsForYsecs(func, interval, duration) {
   function theEnd() {
       console.log('This is the end!');
   }
-  everyXsecsForYsecs(theEnd, 2000, 20000); // should invoke theEnd function every 2 seconds, for 20 seconds): This is the end!
+  everyXsecsForYsecs(sayHi, 1000, 50000); // should invoke theEnd function every 2 seconds, for 20 seconds): This is the end!
   
   
+
