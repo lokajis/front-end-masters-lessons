@@ -99,3 +99,4 @@ console.log("check stracture", user22, user21);
 //that means that "this" is going to be user21.score++
 
 // RUN A F() THAT IS AVAILABLE TO MENY DIFFERENT OBJCTS THROUG THE PROTO LINK AND MAKE SHOUR TO WRITE IT WITH "this"
+ 
